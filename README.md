@@ -4,6 +4,8 @@
 Scripts that install and configure BCEL Expressway payment kiosks on Windows 10/11, without cloning disk images.
 
 > ພາສາອັງກິດຢູ່ລຸ່ມ / [English below](#english)
+>
+> 📘 **ຄູ່ມືລະອຽດສຳລັບທີມເຕັກນິກ (Word):** [docs/Expressway-Kiosk-Manual-v1.0.docx](docs/Expressway-Kiosk-Manual-v1.0.docx)
 
 ---
 
@@ -147,6 +149,7 @@ C:\Expressway\
 | `scripts/Kiosk.Common.psm1` | Shared helpers |
 | `config/*.json` | Download URLs and hashes, environments, install defaults, kiosk template |
 | `tools/Build-Payload.ps1` | Builds the private payload zip ([docs/PAYLOAD.md](docs/PAYLOAD.md)) |
+| `docs/Expressway-Kiosk-Manual-v1.0.docx` | Detailed technician manual (Lao) |
 | `tests/` | Pester tests |
 
 ### What is not in this repository
