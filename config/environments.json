@@ -1,0 +1,12 @@
+{
+  "Prod": {
+    "url": "https://expressway.bcel.one/",
+    "remoteDebuggingPort": 0,
+    "monitorEnvironment": "production"
+  },
+  "Dev": {
+    "url": "",
+    "remoteDebuggingPort": 9999,
+    "monitorEnvironment": "test"
+  }
+}

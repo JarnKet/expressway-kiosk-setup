@@ -1,0 +1,10 @@
+{
+  "installRoot": "C:\\Expressway",
+  "payloadRepo": "JarnKet/expressway-kiosk-payload",
+  "payloadAssetPattern": "expressway-payload-*.zip",
+  "taskName": "Expressway Wrapper",
+  "timeZone": "SE Asia Standard Time",
+  "activeHoursStart": 6,
+  "activeHoursEnd": 23,
+  "volumePercent": 80
+}

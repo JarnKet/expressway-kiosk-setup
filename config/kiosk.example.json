@@ -1,0 +1,8 @@
+{
+  "terminalId": "EXAMPLE-T01",
+  "staticQrId": "your-static-qr-id",
+  "comPort": "COM3",
+  "environment": "Prod",
+  "topmost": false,
+  "logServerUrl": ""
+}

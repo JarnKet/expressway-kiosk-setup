@@ -1,0 +1,5 @@
+# Payload builds are private: never commit them here
+*.zip
+dist/
+out/
+SHA256SUMS

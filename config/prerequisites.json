@@ -1,0 +1,43 @@
+{
+  "netFramework": {
+    "minRelease": 394802,
+    "minVersion": "4.6.2",
+    "installer": {
+      "name": ".NET Framework 4.8",
+      "url": "https://go.microsoft.com/fwlink/?linkid=2088631",
+      "fileName": "ndp48-x86-x64-allos-enu.exe",
+      "arguments": "/q /norestart"
+    }
+  },
+  "vcRedistX86": {
+    "name": "Visual C++ 2015-2022 Redistributable (x86)",
+    "url": "https://aka.ms/vs/17/release/vc_redist.x86.exe",
+    "fileName": "vc_redist.x86.exe",
+    "arguments": "/install /quiet /norestart"
+  },
+  "dotnetDesktop": {
+    "name": ".NET Desktop Runtime 7.0.20 (x86)",
+    "major": 7,
+    "version": "7.0.20",
+    "url": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/7.0.20/windowsdesktop-runtime-7.0.20-win-x86.exe",
+    "fileName": "windowsdesktop-runtime-7.0.20-win-x86.exe",
+    "sha512": "cfdf8369b3ac1c8fcba3274cb716c9faaa1df489ec3d3fd77419e78a0d740588546269ab7d77e09b3d4fe3817c55ca63c909d259ab7fe8b33da351453b58a05b",
+    "arguments": "/install /quiet /norestart"
+  },
+  "prolific": {
+    "note": "Signed driver packages from the Microsoft Update Catalog, for USB\\VID_067B&PID_2303/2304 (PL2303 HXD/EA/RA/SA family).",
+    "windows10": {
+      "version": "3.8.43.0",
+      "url": "https://catalog.s.download.windowsupdate.com/c/msdownload/update/driver/drvs/2024/08/00e128fd-603d-4868-961b-3ca8538f2f93_17eda21b073d7212f383670b465b869ed75fbae7.cab",
+      "fileName": "prolific-3.8.43.0.cab",
+      "sha256": "40644652113fd36e04bcab3ee5ee30822d9131f917e4d8cdcb86deb89166f1fd"
+    },
+    "windows11": {
+      "minBuild": 22000,
+      "version": "3.9.7.2",
+      "url": "https://catalog.s.download.windowsupdate.com/d/msdownload/update/driver/drvs/2024/07/b255eb25-22f1-4c49-8445-4f6b17abf2e9_e437b780371f9f160498e2aaefaa6dcb8e2cf917.cab",
+      "fileName": "prolific-3.9.7.2.cab",
+      "sha256": "61a36e80fbc3efa5344d54b4ca800fe75e5a021b816c24a9e9d1cc2e5bd58a63"
+    }
+  }
+}
